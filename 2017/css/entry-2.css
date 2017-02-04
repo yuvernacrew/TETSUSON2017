@@ -1,0 +1,107 @@
+body {
+	background-image: url('../img/ently-background.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.entry2-article {
+	width: 100vw;
+	background-color: rgba(0, 0, 0, .4);
+	text-align: center;
+}
+
+.title-box {
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+
+section p {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.flow {
+	width: 100vw;
+	margin-bottom: 60px;
+}
+
+.flowchart {
+	width: 90%;
+}
+
+.venues-box {
+	width: 100vw;
+	margin-bottom: 60px;
+}
+
+.venues-img {
+	display: flex;
+	-webkit-flex-wrap: wrap;  /*Safari*/ 
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around; /* Safari */
+	justify-content:         space-around;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.venues-img img {
+	width: 240px;
+}
+
+.requirements {
+	box-sizing: border-box;
+	width: 85%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px;
+}
+
+.requirements h3{
+	width: 270px;
+	box-sizing: border-box;
+	display: block;
+	text-align: left;
+	font-size: 1.2em;
+	padding: 5px;
+	padding-left: 15px;
+	border-bottom: 2px solid white;
+	border-left: 10px solid white;
+	margin-bottom: 10px;
+}
+
+.requirements ul{
+	margin-bottom: 40px;
+	list-style: disc;
+}
+
+.requirements ul li{
+	margin-bottom: 1em;
+	margin-left: 20px;
+}
+.figure {
+	width: 100%;
+	display: flex;
+	-webkit-flex-wrap: wrap;  /*Safari*/ 
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around; /* Safari */
+	justify-content:         space-around;
+}
+
+.figure li {
+	position: relative;
+	height: 160px;
+	width: 190px;
+	margin: 0 10px 40px 10px;
+}
+
+.figure li p {
+	width: 100%;
+	text-align: center;
+}
+
+.figure li img {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	bottom: 0;
+}

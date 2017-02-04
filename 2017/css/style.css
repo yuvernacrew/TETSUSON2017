@@ -1,0 +1,120 @@
+
+/*-------------------------
+	main
+-------------------------*/
+
+.main {
+	width: 100vw;
+}
+
+.main-visual {
+	width: 100vw;
+	height: 65vw;
+	position: relative;
+	background-color: black;
+	background-image: url('../img/main-img.jpg');
+	background-size: cover;
+}
+.logo-title {
+	position: absolute;
+	height: 14%;
+	top: 43%;
+	left: 8%;
+}
+.black-box{
+	width: 100vw;
+	height: 25vw;
+	position: absolute;
+	bottom: 0;
+	z-index: 200;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+}
+
+.top-article{
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(
+		top,
+		rgba(0,0,0,1) 0%,
+		rgba(29,10,70,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top, 
+		rgba(0,0,0,1) 0%,
+		rgba(29,10,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom, 
+		rgba(0,0,0,1) 0%,
+		rgba(29,10,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.article-container{
+	width: 76%;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.article-h1{
+	font-size: 2.6em;
+	margin-bottom: 40px;
+}
+
+.article-p{
+	line-height: 3.2em;
+	margin-bottom: 40px;
+}
+ 
+/*-------------------------
+	footer
+-------------------------*/
+.footer{
+	background-color:gray;
+	padding: 40px 20px;
+}
+
+.footer-container{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	-webkit-flex-wrap: wrap;  /*Safari*/ 
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around; /* Safari */
+	justify-content: space-around;
+
+}
+
+.content {
+	width: 300px;
+}
+
+.sns-link {
+	display: flex;
+	-webkit-flex-wrap: wrap;  /*Safari*/ 
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between; /* Safari */
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.sns-link li {
+	display: block;
+	width: 72px;
+	height: 72px;
+	cursor: pointer;
+}
+
+.footer-h2{
+	font-size: 2.0em;
+	line-height: 2.0em;
+	margin-bottom: 20px;
+}
+
+.content-r p{
+	line-height: 1.8em;
+	margin-bottom: 40px;
+
+}
+
+
+

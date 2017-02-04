@@ -1,0 +1,79 @@
+body {
+	background-image: url('../img/ently-background.png');
+	background-position: center;
+	background-size: cover;
+}
+
+article{
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+}
+#formWrap {
+	width:90%;
+	margin:0 auto;
+	line-height:120%;
+	font-size:90%;
+}
+h1{
+	text-align: center;
+	margin-top: 60px;
+}
+
+h2{
+	text-align: center;
+	margin: 20px 0 60px 0;
+}
+table, 
+tbody, 
+thead, 
+tfoot, 
+tr, 
+th, 
+td {
+    display: block;
+}
+
+table.formTable,
+table.formTable input, 
+table.formTable textarea {
+	width:100%;
+	box-sizing: border-box;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+table.formTable input, 
+table.formTable textarea{
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-radius: 3px;
+	color: white;
+	padding: 10px;
+}
+
+table.formTable input:-moz-placeholder {
+    color: white; 
+    opacity: 0.2; 
+}
+
+table.formTable input::-webkit-input-placeholder {
+    color: white; 
+    opacity: 0.2; 
+}
+
+table.formTable th{
+	margin-bottom: 5px; 
+}
+
+table.formTable td{
+  margin-bottom: 20px; 
+}
+
+.btn-box {
+	width: 100%;
+}
+
+.entry-btn {
+	background-color: black;
+}
