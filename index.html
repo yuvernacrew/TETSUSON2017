@@ -5,19 +5,32 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>TETSUSON2017 | TOP</title>
 	<script type="text/javascript" src="2017/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="2017/js/slick.min.js"></script>
+
 	<script type="text/javascript" src="2017/js/default.js"></script>
+	<link rel="stylesheet" type="text/css" href="2017/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="2017/css/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="2017/css/default.css">
 	<link rel="stylesheet" type="text/css" href="2017/css/style.css">
 </head>
 <body>
-	<header>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<header class="clearfix">
 		<div class="header">
-			<div class="tit-img-box">
-				<img class="tit-img" src="2017/img/title-img.png" alt="tetsuson2017">
+			<div class="tit-img-box l-left">
+				<a href='index.html'><img class="tit-img" src="2017/img/tetsuson-logo-black.png" alt="tetsuson2017"></a>
 			</div>
-			<nav class="header-nav">
+			<nav class="header-nav l-right">
 				<ul>
-					<li><a class="nav-active" href="">Top</a></li>
+					<li><a class="nav-active" href="index.html">Top</a></li>
 					<li><a class="non-active" href="">About</a></li>
 					<li><a class="non-active" href="">Artist</a></li>
 					<li><a class="non-active" href="">Event</a></li>
@@ -62,25 +75,74 @@
 				<p class="article-p">メインビジュアルは、みなさんの中に温められながら眠っているものが、もがきつつも自分の力でサナギの殻を破って出てこようとする、その瞬間を表現しています。</p>
 			</div>
 		</article>
+
+		<!-- second -->
+		<article class='second-article'>
+			<h1 class="article-h1 h1-container">PHOTO</h1>
+			<section class="center slick slider">
+				<div><img src='2017/img/past/img1.jpg'></div>
+				<div><img src='2017/img/past/img2.jpg'></div>
+				<div><img src='2017/img/past/img3.jpg'></div>
+				<div><img src='2017/img/past/img4.jpg'></div>
+				<div><img src='2017/img/past/img5.jpg'></div>
+				<div><img src='2017/img/past/img6.jpg'></div>
+				<div><img src='2017/img/past/img7.jpg'></div>
+				<div><img src='2017/img/past/img8.jpg'></div>
+				<div><img src='2017/img/past/img9.jpg'></div>
+				<div><img src='2017/img/past/img10.jpg'></div>
+			</section>
+		</article>
+
+		<!-- third -->
+		<article class='third-article'>
+			<div class="l-relative clearfix">
+				<h1 class="article-h1 h1-container">ACTIVITIES</h1>
+				<div class='sns-container clearfix'>
+					<div class='fb-container'>
+						<div class="fb-page" 
+						data-href="https://www.facebook.com/tetsuson2017/" 
+						data-tabs="timeline" 
+						data-height="400" 
+						data-width="500" 
+						data-small-header="true" 
+						data-adapt-container-width="true" 
+						data-hide-cover="true" 
+						data-show-facepile="true"
+						top ="0">
+							<blockquote cite="https://www.facebook.com/tetsuson2017/" class="fb-xfbml-parse-ignore">
+								<a href="https://www.facebook.com/tetsuson2017/">TETSUSON</a>
+							</blockquote>
+						</div>
+					</div>
+					<div class='twitter-container'>
+						<a class="twitter-timeline"
+						href="https://twitter.com/tetsuson2017"
+						height="400"
+						>Tweets by tetsuson2017</a>
+						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+			</div>
+		</article>
 	</main>
+
 	<footer class="footer">
-		<div class="footer-container">
-			<div class="content content-l">
-				<h2 class="footer-h2">LINK</h1>
+		<div class="article-container clearfix">
+			<div class="content content-l l-right">
+				<h1 class="footer-h2">LINK</h1>
 				<ul class="sns-link">
 					<li><a href="https://www.facebook.com/tetsuson2017/" target="_blank"><img src="2017/img/fb-logo.png"></a></li>
 					<li><a href="https://twitter.com/tetsuson2017" target="_blank"><img src="2017/img/twitter-logo.png"></a></li>
 					<li><a href="https://www.instagram.com/p/BOJAFtNBwHg/" target="_blank"><img src="2017/img/insta-logo.png"></a></li>
 				</ul>
 			</div>
-			<div class="content content-r">
-				<h2 class="footer-h2">CONTACT</h1>
+			<div class="content content-r l-left">
+				<h1 class="footer-h2">CONTACT</h1>
 				<p>出展者・スタッフ共に随時募集中です！<br>
 				興味のある方・ご質問がある方などは、お気軽にお問い合わせください。</p>
 				<a class="mail-link">tetsuson2017@gmail.com</a>
 			</div>
 		</div>
 	</footer>
-
 </body>
 </html>
