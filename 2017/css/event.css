@@ -1,0 +1,14 @@
+.event-top {
+	width: 100vw;
+	background-color: #e5e3d9;
+}
+
+.event-top-img {
+	display: block;
+	width: 82vw;
+	margin: 0 auto;
+}
+
+.event-second {
+	background-color: #4d4d4d;
+}

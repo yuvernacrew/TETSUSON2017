@@ -29,6 +29,22 @@ section p {
 	width: 90%;
 }
 
+.sp-flowchart {
+	display: none;
+}
+
+@media(max-width: 760px){
+	.flowchart {
+		display: none;
+	}
+
+	.sp-flowchart {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
 .venues-box {
 	width: 100vw;
 	margin-bottom: 60px;

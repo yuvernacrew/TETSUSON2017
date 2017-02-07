@@ -219,9 +219,9 @@ else if($confirmDsp == 1){
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
+<script type="text/javascript" src="../js/include.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TETSUSON2017|ENTRY</title>
 <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="../js/default.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/default.css">
@@ -297,43 +297,8 @@ img#topback{
 </style>
 </head>
 <body>
-
+<script type="text/javascript">include("../template/header.html");</script>
 <!-- ▲ Headerやその他コンテンツなど　※自由に編集可 ▲-->
-	<header>
-		<div class="header">
-			<div class="tit-img-box">
-				<img class="tit-img" src="../img/title-img.png" alt="tetsuson2017">
-			</div>
-			<nav class="header-nav">
-				<ul>
-					<li><a href="../../index.html">Top</a></li>
-					<li><a class="non-active" href="">About</a></li>
-					<li><a class="non-active"  href="">Artist</a></li>
-					<li><a class="non-active" href="">Event</a></li>
-					<li><a class="non-active" href="">Sponsor</a></li>
-					<li><a class="nav-active" href="../html/entry.html">Entry</a></li>
-				</ul>
-			</nav>
-		</div>
-		<nav class="mobile-nav">
-			<div id="nav-toggle">
-				<div>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
-			<ul class="mobile-nav-list">
-				<li><a href="../../index.html">Top</a></li>
-				<li><a class="non-active" href="">About</a></li>
-				<li><a class="non-active" href="">Artist</a></li>
-				<li><a class="non-active" href="">Event</a></li>
-				<li><a class="non-active" href="">Sponsor</a></li>
-				<li><a class="nav-active" href="../html/entry.html">Entry</a></li>
-			</ul>
-		</nav>
-	</header>
-
 <article>
 	<h1>CONTACT</h1>
 
