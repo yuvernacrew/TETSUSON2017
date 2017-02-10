@@ -8,7 +8,38 @@
 	width: 82vw;
 	margin: 0 auto;
 }
+.sp-event-top-img {
+	display: none;
+}
+
+@media(max-width: 750px){
+	.event-top {
+		background-image: ('../img/event-back.png')
+	}
+
+	.sp-event-top-img {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.event-top-img {
+		display: none;
+	}
+}
+
 
 .event-second {
 	background-color: #4d4d4d;
+}
+
+.map {
+	width: 82vw;
+}
+
+.dashes {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted white;
 }

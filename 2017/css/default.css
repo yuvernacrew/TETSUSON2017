@@ -58,7 +58,7 @@ body {
 	width: 100vw;
 	background-color: #000;
 	color: #fff;
-	font-family: KozGoPro-Light, "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", 游ゴシック, YuGothic, メイリオ, Meiryo, sans-serif;
+	font-family: 'kozuka', KozGoPro-Light, "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", 游ゴシック, YuGothic, メイリオ, Meiryo, sans-serif;
 	text-align: center;
 }
 
@@ -93,6 +93,13 @@ body {
 /*-------------------------
 	default
 -------------------------*/
+
+@font-face {
+	font-family: 'kozuka';
+	src: url(../font/KozGoPr6N-ExtraLight.otf);
+}
+
+
 
 body {
 	font-size: 14px;
@@ -211,7 +218,7 @@ header {
     top: 32px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 780px) {
 	.header-nav {
 		display: none;
 	}
@@ -290,6 +297,7 @@ header {
 	footer
 -------------------------*/
 .footer{
+	padding: 10px 80px;
 	background-color: #3c3c3c;
 }
 
@@ -297,27 +305,16 @@ header {
 	width: 40%;
 }
 
-@media(max-width: 785px){
-	.content {
-		width: 100%;
-		float: none !important;
-	}
-
-	.sns-link li {
-		margin-right: 0;
-	}
-}
-
 .sns-link {
 	display: flex;
 	-webkit-justify-content: space-around; 
 	justify-content: space-around;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .sns-link li {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	cursor: pointer;
 }
 
@@ -336,6 +333,27 @@ header {
 	line-height: 1.8em;
 	margin-bottom: 40px;
 }
+
+@media(max-width: 785px){
+	.footer {
+	padding: 10px 20px;
+	}
+
+	.content {
+		width: 100%;
+		float: none !important;
+	}
+
+	.sns-link {
+		width: 80%;
+		margin: 0 auto 60px;
+	}
+
+	.sns-link li {
+		margin-right: 0;
+	}
+}
+
 
 /*-------------------------
 	btn
@@ -375,7 +393,6 @@ header {
 
 .article-container{
 	box-sizing: border-box;
-	width: 80%;
 	height: 100%;
 	margin: 0 auto;
 	padding: 30px 20px;
@@ -383,12 +400,9 @@ header {
 
 @media(max-width: 540px){
 	.article-container{
-	box-sizing: border-box;
-	width: 90%;
-	height: 100%;
-	margin: 0 auto;
-	padding: 15px 10px;
-}
+		box-sizing: border-box;
+		padding: 15px 10px;
+	}
 
 }
 
@@ -402,12 +416,14 @@ header {
 
 .article-h1{
 	font-size: 2.6em;
-	margin-bottom: 40px;
+	margin: 0 auto;
+	padding: 40px 0 20px;
 }
 
 .article-p{
 	line-height: 3.2em;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
 

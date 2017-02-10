@@ -40,18 +40,20 @@
 	background: -moz-linear-gradient(
 		top,
 		rgba(0,0,0,0) 10%,
-		rgb(204, 149, 40) 77%,
+		rgb(204, 149, 40) 85%,
 		rgb(247, 214, 49) 100%);
 	background: -webkit-linear-gradient(
 		top,
 		rgba(0,0,0,0) 10%,
-		rgb(204, 149, 40) 77%,
+		rgb(204, 149, 40) 85%,
 		rgb(247, 214, 49) 100%);
 	background: linear-gradient(
 		to bottom, 
 		rgba(0,0,0,0) 10%,
-		rgb(204, 149, 40) 77%,
+		rgb(204, 149, 40) 85%,
 		rgb(247, 214, 49) 100%);
+
+	padding-bottom: 80px;
 }
 
 
@@ -94,18 +96,18 @@
 
 .sns-container {
 	box-sizing: border-box;
-	max-width: 800px;
-	width: 85%;
+	max-width: 900px;
+	width: 95%;
 	margin: 0 auto;
 	height: 100%;
 }
 
 .fb-container,
 .twitter-container {
-	width: 360px !important;
+	width: 420px !important;
 }
 
-@media(max-width: 850px){
+@media(max-width: 900px){
 	.sns-container {
 		width: 500px;
 		display: block;
