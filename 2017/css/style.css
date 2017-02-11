@@ -32,6 +32,31 @@
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
 }
 
+@media(max-width: 750px){
+	.main-visual {
+		height: 125vw;
+		position: relative;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.title-tetsuson {
+		display: none !important;
+	}
+
+	.logo-title {
+		width: 70%;
+		height: auto !important;
+		top: 30% !important;
+		left: 15% !important;
+		z-index: 2;
+	}
+
+	.black-box {
+		height: 120vw;
+	}
+}
+
 /*-------------------------
 	article
 -------------------------*/

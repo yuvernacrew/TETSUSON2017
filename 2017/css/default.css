@@ -187,7 +187,7 @@ header {
     display: none;
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 15px;;
     width: 36px;
     height: 42px;
     cursor: pointer;
@@ -212,13 +212,23 @@ header {
     top: 0;
 }
 #nav-toggle span:nth-child(2) {
-    top: 16px;
+    top: 14px;
 }
 #nav-toggle span:nth-child(3) {
-    top: 32px;
+    top: 28px;
 }
 
 @media screen and (max-width: 780px) {
+	header {
+		height: 58px;
+	}
+
+	.header {
+		height: 60px;
+		padding: 10px 20px;
+		border-bottom: 1px solid rgba(0, 0, 0, .8);
+	}
+
 	.header-nav {
 		display: none;
 	}
@@ -280,9 +290,9 @@ header {
     /* #global-nav スライドアニメーション */
     .open .mobile-nav-list {
         /* #global-nav top + #mobile-head height */
-        -moz-transform: translateY(580px);
-        -webkit-transform: translateY(580px);
-        transform: translateY(580px);
+        -moz-transform: translateY(560px);
+        -webkit-transform: translateY(560px);
+        transform: translateY(560px);
     }
 
     .logo-title {

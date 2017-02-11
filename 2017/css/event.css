@@ -35,10 +35,11 @@
 
 .map {
 	width: 82vw;
+	height: 50vw;
 }
 
 .dashes {
-	width: 80%;
+	width: 40%;
 	margin: 0 auto;
 	padding-bottom: 10px;
 	border-bottom: 1px dotted white;
