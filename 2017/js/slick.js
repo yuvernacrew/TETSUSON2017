@@ -1,5 +1,5 @@
 $(function(){
-    $('.slick').slick({
+  $('.slick').slick({
     centerMode: true,
     centerPadding: '60px',
     autoplay:true,
@@ -26,4 +26,8 @@ $(function(){
       }
     ]
   });
+    $('.slick2').slick({
+      dots: true,
+      arrows: true
+    });
 })

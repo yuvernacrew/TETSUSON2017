@@ -132,6 +132,10 @@ h2 {
 	margin-bottom: 40px !important;
 }
 
+.mt35{
+	margin-top: 35px !important;
+}
+
 /*-------------------------
 	header
 -------------------------*/
@@ -218,7 +222,7 @@ header {
     top: 28px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 815px) {
 	header {
 		height: 58px;
 	}
@@ -405,7 +409,7 @@ header {
 	box-sizing: border-box;
 	height: 100%;
 	margin: 0 auto;
-	padding: 30px 20px;
+	padding: 40px 20px 30px;
 }
 
 @media(max-width: 540px){
@@ -430,12 +434,24 @@ header {
 	padding: 40px 0 20px;
 }
 
+.article-h2{
+	display: inline;
+	font-size: 1.8em;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #333;
+}
+
 .article-p{
 	line-height: 3.2em;
 	margin-bottom: 20px;
 	padding: 10px;
 }
 
+.sponsor-top {
+	width: 100vw;
+	color: #333;
+	background-color: #b3b3b3;
+}
 
 /*-------------------------
 	float
@@ -487,7 +503,6 @@ header {
 .y-center {
 	position: absolute;
 	top: 50%;
-	left: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
