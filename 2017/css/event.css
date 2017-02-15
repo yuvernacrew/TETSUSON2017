@@ -14,7 +14,7 @@
 
 @media(max-width: 750px){
 	.event-top {
-		background-image: ('../img/event-back.png')
+		background-image: ('../img/event-back.png');
 	}
 
 	.sp-event-top-img {
@@ -34,8 +34,9 @@
 }
 
 .map {
-	width: 82vw;
-	height: 50vw;
+	width: 75vw;
+	height: 35vw;
+	margin: 0 auto;
 }
 
 .dashes {
